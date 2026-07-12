@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BarChart3, FileText, PieChart, Users } from "lucide-react";
+import { BarChart3, FileText, PieChart, Users } from "lucide-react";
 
 export default function Home() {
   const services = [
@@ -27,7 +27,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Sectie: Hier gebruiken we de 'services' variabele eindelijk! */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
           {services.map((service, index) => (
