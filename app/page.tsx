@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BarChart3, FileText, PieChart, ShieldCheck, Users, Briefcase } from "lucide-react";
+import { ArrowRight, BarChart3, FileText, PieChart, Users } from "lucide-react";
 
 export default function Home() {
   const services = [
