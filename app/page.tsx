@@ -10,8 +10,16 @@ export default function Home() {
   ];
 
   const testimonials = [
-    { name: "Ahmet Yılmaz", company: "Yılmaz Lojistik A.Ş.", text: "CFR Mali Musavirlik ile calismaya basladigimizdan beri vergi sureclerimizde hicbir aksama yasamadik." },
-    { name: "Ayşe Kaya", company: "Kaya Teknoloji", text: "Finansal raporlamadaki uzmanliklari sayesinde sirketimizin buyume hedeflerine cok daha emin adimlarla ilerliyoruz." },
+    { 
+      name: "Ahmet Yılmaz", 
+      company: "Yılmaz Lojistik A.Ş.", 
+      text: "CFR Mali Musavirlik ile calismaya basladigimizdan beri vergi sureclerimizde hicbir aksama yasamadik." 
+    },
+    { 
+      name: "Ayşe Kaya", 
+      company: "Kaya Teknoloji", 
+      text: "Finansal raporlamadaki uzmanliklari sayesinde sirketimizin buyume hedeflerine cok daha emin adimlarla ilerliyoruz." 
+    },
   ];
 
   return (
@@ -46,7 +54,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((t, i) => (
               <div key={i} className="bg-white p-8 rounded-lg shadow-sm border border-slate-100">
-                <p className="text-slate-700 italic mb-6">"{t.text}"</p>
+                <p className="text-slate-700 italic mb-6">{t.text}</p>
                 <p className="font-semibold text-slate-900">{t.name}</p>
                 <p className="text-sm text-slate-500">{t.company}</p>
               </div>
