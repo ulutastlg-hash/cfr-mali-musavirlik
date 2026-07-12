@@ -29,12 +29,12 @@ export default function Home() {
     {
       name: "Ahmet Yılmaz",
       company: "Yılmaz Lojistik A.Ş.",
-      text: "CFR Mali Müşavirlik ile çalışmaya başladığımızdan beri vergi süreçlerimizde hiçbir aksama yaşamadık. Gerçek bir çözüm ortağı.",
+      text: 'CFR Mali Müşavirlik ile çalışmaya başladığımızdan beri vergi süreçlerimizde hiçbir aksama yaşamadık. Gerçek bir çözüm ortağı.',
     },
     {
       name: "Ayşe Kaya",
       company: "Kaya Teknoloji",
-      text: "Finansal raporlamadaki uzmanlıkları sayesinde şirketimizin büyüme hedeflerine çok daha emin adımlarla ilerliyoruz.",
+      text: 'Finansal raporlamadaki uzmanlıkları sayesinde şirketimizin büyüme hedeflerine çok daha emin adımlarla ilerliyoruz.',
     },
   ];
 
@@ -123,7 +123,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-brand-light p-8 rounded-lg">
-                <p className="text-slate-700 italic mb-6">"{testimonial.text}"</p>
+                <p className="text-slate-700 italic mb-6">'{testimonial.text}'</p>
                 <div>
                   <p className="font-semibold text-brand-blue">{testimonial.name}</p>
                   <p className="text-sm text-slate-500">{testimonial.company}</p>
